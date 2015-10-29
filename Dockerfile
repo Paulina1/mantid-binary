@@ -1,9 +1,5 @@
 FROM ubuntu:14.04
 
-ENV http_proxy=http://wwwcache.rl.ac.uk:8080
-ENV https_proxy=http://wwwcache.rl.ac.uk:8080
-ENV HTTP_PROXY=http://wwwcache.rl.ac.uk:8080
-ENV HTTPS_PROXY=http://wwwcache.rl.ac.uk:8080
 ENV QT_X11_NO_MITSHM=1
 
 RUN apt-get update
